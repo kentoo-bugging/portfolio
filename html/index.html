@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sopheap Sochetra - Portfolio</title>
+</head>
+<body>
+    
+    <header>
+        <h1>Sopheap Sochetra</h1>
+        <nav>
+            <a href="#about">About Me</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+
+
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I'm a first year student majoring in <strong>Computer Science</strong>. I'm interested in <em>Software Development</em>.I'm currently focusing on basic programming language.</p>       
+            <figure>
+                <img src="../assets/images/Default_pfp.jpg" alt="My profile picture">
+                <figcaption>Sopheap Sochetra - CS Student</figcaption>
+            </figure>
+
+            <a href="https://github.com/kentoo-bugging" target="_blank" rel="noopener">GitHub</a>
+            <a href="mailto:sopheapsochetra@email.com">Email me</a>
+
+            <h3>My Skills</h3>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
+
+            <h3>My Goals</h3>
+            <ol>
+                <li>To be a frontend developer</li>
+                <li>To be a backend developer</li>
+                <li>To be a software engineer</li>
+            </ol>
+
+            <h3>Skills by Category</h3>
+            <ul>
+                <li>Frontend
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                </ul>
+                </li>
+                <li>Backend
+                <ul>
+                    <li>PHP</li>
+                    <li>Database</li>
+                </ul>
+                </li>
+            </ul>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            
+            <article>
+                <h3>Calculator App</h3>
+                <p>Built with HTML, CSS, and JavaScript.</p>
+            </article>
+            
+            <article>
+                <h3>Portfolio Site</h3>
+                <p>My personal portfolio page.</p>
+            </article>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <form action="/submit" method="POST">
+                <label for="name">Full Name: </label>
+                <input type="text" id="name" name="name" required placeholder="Enter your name" minlength="2">
+
+                <label for="email">Email :</label>
+                <input type="email" name="email" id="email" required placeholder="Enter your email">
+
+                <label for="topic">Topic</label>
+                <select name="topic" id="topic">
+                    <option value="">-- Choose --</option>
+                    <option value="collab">Collaboration</option>
+                    <option value="job">Job Opportunity</option>
+                    <option value="general">General Inquiry</option>
+                </select>
+
+                <label for="message">Message</label>
+                <textarea name="message" id="message" rows="5" required minlength="10"></textarea>
+
+                <label for="agree">
+                    <input type="checkbox" name="agree" id="agree"> I agree to be contacted
+                </label>
+
+                <button type="submit">Send message</button>
+            </form>
+        </section>
+    </main>
+
+    
+    <aside>
+        <h3>Skills</h3>
+        <ul>
+            <li>HTML & CSS</li>
+            <li>JavaScript</li>
+        </ul>
+    </aside>
+    <footer>
+        <p>&copy; 2025 Sopheap Sochetra</p>
+    </footer>
+</body>
+</html>
